@@ -55,5 +55,9 @@ class Song
     c.save
     c
   end 
+  
+  def self.destroy_all
+    @@all = []
+  end
 
 end
